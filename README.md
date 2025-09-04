@@ -2,7 +2,7 @@
 
 [Download Original from CurseForge](https://www.curseforge.com/minecraft/mc-mods/ewewukeks-musket-mod/files/all)\
 [Download Original from modrinth](https://modrinth.com/mod/ewewukeks-musket-mod/versions)\
-[Download Original from Github](https://github.com/ewewukek/mc-musketmod))\
+[Download Original from Github](https://github.com/ewewukek/mc-musketmod)\
 
 
 
@@ -15,9 +15,10 @@ This is early development and is not finished
 
 Dependencies
 
--Cloth Config
--Create (Crafting ingredients)
--Overgeared (Crafting ingredients + how to craft)
+- Cloth Config
+- Create (Crafting ingredients)
+- Overgeared (Crafting ingredients + how to craft)
+
 
 Credits
 
@@ -31,7 +32,7 @@ Credits
 
 Fork specific 
 
--indeinerwand88 (Models)
--SnowierPuppet (Textures)
--me (coding + Models)
+- indeinerwand88 (Models)
+- SnowierPuppet (Textures)
+- me (coding + Models)
 
