@@ -1,8 +1,8 @@
 
 
 [Download Original from CurseForge](https://www.curseforge.com/minecraft/mc-mods/ewewukeks-musket-mod/files/all)\
-[Download original from modrinth](https://modrinth.com/mod/ewewukeks-musket-mod/versions)\
-[Download Original from Github]((https://github.com/ewewukek/mc-musketmod))\
+[Download Original from modrinth](https://modrinth.com/mod/ewewukeks-musket-mod/versions)\
+[Download Original from Github](https://github.com/ewewukek/mc-musketmod))\
 
 
 
