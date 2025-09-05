@@ -1,10 +1,15 @@
 package ewewukek.musketmod;
 
+import java.lang.reflect.Field;
 import java.nio.file.Path;
+import java.util.List;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.Executor;
 import java.util.function.Supplier;
 
+import com.talhanation.recruits.compat.IWeapon;
+import ewewukek.musketmod.recruitscompat.CarbineWeapon;
+import ewewukek.musketmod.recruitscompat.WeaponCompat;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.resources.ResourceLocation;
@@ -48,6 +53,8 @@ public class MusketMod {
         resource("main"), () -> PROTOCOL_VERSION,
         PROTOCOL_VERSION::equals, PROTOCOL_VERSION::equals);
 
+
+
     public MusketMod() {
         Config.load();
 
@@ -80,7 +87,12 @@ public class MusketMod {
         });
         event.register(ForgeRegistries.Keys.GLOBAL_LOOT_MODIFIER_SERIALIZERS,
             resource("loot_modifier"), () -> ModLootModifier.CODEC);
+
+        WeaponCompat.registerWeapons();
+        ewewukek.musketmod.recruitscompat.WeaponCompatInjector.injectCustomWeapons();
     }
+
+
 
     public void creativeTabs(final BuildCreativeModeTabContentsEvent event) {
         Items.addToCreativeTab(event.getTabKey(), (item) -> {
@@ -150,4 +162,6 @@ public class MusketMod {
             ctx.get().setPacketHandled(true);
         }
     }
+
 }
+

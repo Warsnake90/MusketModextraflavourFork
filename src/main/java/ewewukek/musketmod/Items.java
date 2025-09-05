@@ -37,17 +37,18 @@ public class Items {
 
     //
 
-    public static final Item PISTOL_BODY = new Item(new Item.Properties().stacksTo(1));
-    public static final Item CARBINE_BODY = new Item(new Item.Properties().stacksTo(1));
-    public static final Item MUSKET_BODY = new Item(new Item.Properties().stacksTo(1));
-    public static final Item FLINT_LOCK = new Item(new Item.Properties().stacksTo(1));
-    public static final Item MATCH_LOCK = new Item(new Item.Properties().stacksTo(1));
-    public static final Item WHEEL_LOCK = new Item(new Item.Properties().stacksTo(1));
-    public static final Item SHORT_BARREL = new Item(new Item.Properties().stacksTo(1));
-    public static final Item MEDIUM_BARREL = new Item(new Item.Properties().stacksTo(1));
-    public static final Item LONG_BARREL = new Item(new Item.Properties().stacksTo(1));
-    public static final Item BLUNDERBUSS_BARREL = new Item(new Item.Properties().stacksTo(1));
-    public static final Item RIFLED_BARREL = new Item(new Item.Properties().stacksTo(1));
+    public static final Item PISTOL_BODY = new Item(new Item.Properties().stacksTo(16));
+    public static final Item CARBINE_BODY = new Item(new Item.Properties().stacksTo(16));
+    public static final Item MUSKET_BODY = new Item(new Item.Properties().stacksTo(16));
+    public static final Item FLINT_LOCK = new Item(new Item.Properties().stacksTo(16));
+    public static final Item MATCH_LOCK = new Item(new Item.Properties().stacksTo(16));
+    public static final Item WHEEL_LOCK = new Item(new Item.Properties().stacksTo(16));
+    public static final Item SHORT_BARREL = new Item(new Item.Properties().stacksTo(16));
+    public static final Item MEDIUM_BARREL = new Item(new Item.Properties().stacksTo(16));
+    public static final Item LONG_BARREL = new Item(new Item.Properties().stacksTo(16));
+    public static final Item BLUNDERBUSS_BARREL = new Item(new Item.Properties().stacksTo(16));
+    public static final Item RIFLED_BARREL = new Item(new Item.Properties().stacksTo(16));
+    public static final Item UNFINISHED_RIFLE = new Item(new Item.Properties().stacksTo(1));
 
 
     //
@@ -103,6 +104,7 @@ public class Items {
         helper.accept("long_barrel", LONG_BARREL);
         helper.accept("blunderbuss_barrel", BLUNDERBUSS_BARREL);
         helper.accept("rifled_barrel", RIFLED_BARREL);
+        helper.accept("unfinished_rifle", UNFINISHED_RIFLE);
     }
 
     public static void addToCreativeTab(ResourceKey<CreativeModeTab> tab, Consumer<Item> helper) {
@@ -135,6 +137,7 @@ public class Items {
             helper.accept(LONG_BARREL);
             helper.accept(BLUNDERBUSS_BARREL);
             helper.accept(RIFLED_BARREL);
+            helper.accept(UNFINISHED_RIFLE);
         }
         if (tab == CreativeModeTabs.INGREDIENTS) {
             helper.accept(MUSKET_UPGRADE);

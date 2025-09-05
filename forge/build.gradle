@@ -70,6 +70,7 @@ dependencies {
     // depenendencies
 
     implementation "me.shedaniel.cloth:cloth-config-forge:${cloth_config_version}"
+    implementation fg.deobf("curse.maven:workers-523860:${recruits_identifier}")
 
     // for crafts
 
@@ -81,7 +82,6 @@ dependencies {
     runtimeOnly fg.deobf("curse.maven:jei-238222:6600311")
     runtimeOnly fg.deobf("curse.maven:mmmmmmmmmmmm-225738:6860192")
     runtimeOnly fg.deobf("curse.maven:selene-499980:6935940")
-    runtimeOnly fg.deobf("curse.maven:workers-523860:${recruits_identifier}")
 
 }
 

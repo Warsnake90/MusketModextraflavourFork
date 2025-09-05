@@ -1,12 +1,5 @@
 package ewewukek.musketmod;
 
-import com.talhanation.recruits.compat.IWeapon;
-import com.talhanation.recruits.entities.AbstractRecruitEntity;
-import net.minecraft.world.effect.MobEffectInstance;
-import net.minecraft.world.effect.MobEffects;
-import net.minecraft.world.entity.projectile.AbstractArrow;
-import net.minecraft.world.entity.projectile.AbstractHurtingProjectile;
-import net.minecraft.world.item.TooltipFlag;
 import org.apache.commons.lang3.tuple.Pair;
 import org.jetbrains.annotations.Nullable;
 

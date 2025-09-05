@@ -1,14 +1,14 @@
 modLoader="javafml"
 loaderVersion="[47,)"
 license="MIT License"
-issueTrackerURL="TO BE UPLOADED TO GITHUB"
+issueTrackerURL="https://github.com/Warsnake90/MusketModextraflavourFork"
 
 [[mods]]
 modId="musketmod"
 version="1.20.1Forge-Fork-0.5.1"
 displayName="Musket Mod"
 #updateJSONURL=""
-displayURL="TOBEUPLOADEDTOGIT"
+displayURL="https://github.com/Warsnake90/MusketModextraflavourFork"
 logoFile="logo.png"
 credits="lilypuree, MikhailTapio, Xannosz, SkpC9 for their contribution, -, SnowierPuppet(F), indeinerwand88(F)"
 authors="ewewukek, Warsnake(Fork)"
