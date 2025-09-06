@@ -10,6 +10,21 @@
   "item.musketmod.wheellock": "Wheellock Carbine",
   "item.musketmod.wheellockpistol": "Wheellock Pistol",
   "item.musketmod.bayonet": "Bayonet",
+  "item.musketmod.ramrod": "Ramrod",
+
+
+  "item.musketmod.pistol_body": "Pistol body",
+  "item.musketmod.carbine_body": "Carbine body",
+  "item.musketmod.musket_body": "Musket body",
+  "item.musketmod.flint_lock": "Flint lock mechanism",
+  "item.musketmod.match_lock": "Match lock mechanism",
+  "item.musketmod.wheel_lock": "Wheel lock mechanism",
+  "item.musketmod.short_barrel": "Short barrel",
+  "item.musketmod.medium_barrel": "medium barrel",
+  "item.musketmod.long_barrel": "Long barrel",
+  "item.musketmod.blunderbuss_barrel": "Blunderbuss barrel",
+  "item.musketmod.rifled_barrel": "Rifled barrel",
+  "item.musketmod.unfinished_rifle_barrel": "Unfinished rifle barrel",
 
   "item.musketmod.pistol": "Flintlock Pistol",
   "item.musketmod.musket_upgrade_smithing_template": "Smithing Template",

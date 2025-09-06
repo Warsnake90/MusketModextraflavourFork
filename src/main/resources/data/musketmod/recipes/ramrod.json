@@ -1,0 +1,25 @@
+{
+  "type": "overgeared:forging",
+  "category": "misc",
+  "tier": "iron",
+  "hammering": 3,
+  "has_quality": false,
+  "has_polishing": false,
+  "pattern": [
+    " # ",
+    " # ",
+    " L "
+  ],
+  "key": {
+    "L": {
+      "item": "overgeared:heated_iron_ingot"
+    },
+    "#": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "item": "musketmod:ramrod"
+  },
+  "show_notification": true
+}

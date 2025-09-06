@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SP ",
+    " SP"
+  ],
+  "key": {
+    "S": {
+      "tag": "minecraft:planks"
+    },
+    "P": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "musketmod:carbine_body",
+    "count": 1
+  }
+}

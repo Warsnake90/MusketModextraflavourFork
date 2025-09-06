@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "musketmod:item/unfinished_rifle"
+    "layer0": "musketmod:item/ramrod"
   }
 }

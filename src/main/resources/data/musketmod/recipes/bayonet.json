@@ -1,0 +1,30 @@
+{
+  "type": "overgeared:forging",
+  "category": "misc",
+  "tier": "iron",
+  "hammering": 3,
+  "has_quality": true,
+  "minimum_quality": "poor",
+  "needs_minigame": true,
+  "has_polishing": true,
+  "pattern": [
+    " # ",
+    " L ",
+    " S "
+  ],
+  "key": {
+    "L": {
+      "item": "overgeared:heated_iron_ingot"
+    },
+    "#": {
+      "item": "minecraft:iron_nugget"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "musketmod:bayonet"
+  },
+  "show_notification": true
+}

@@ -4,12 +4,12 @@
     "item": "musketmod:musket_upgrade_smithing_template"
   },
   "base": {
-    "item": "musketmod:musket"
+    "item": "musketmod:unfinished_rifle_barrel"
   },
   "addition": {
-    "item": "musketmod:bayonet"
+    "item": "create:brass_ingot"
   },
   "result": {
-    "item": "musketmod:musket_with_bayonet"
+    "item": "musketmod:rifled_barrel"
   }
 }

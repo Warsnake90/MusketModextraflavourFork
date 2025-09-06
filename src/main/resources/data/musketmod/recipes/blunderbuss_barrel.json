@@ -1,0 +1,23 @@
+{
+  "type": "overgeared:forging",
+  "category": "misc",
+  "tier": "iron",
+  "hammering": 3,
+  "has_quality": false,
+  "has_polishing": false,
+  "pattern": [
+    "#N#"
+  ],
+  "key": {
+    "N": {
+      "item": "overgeared:copper_ingot"
+    },
+    "#": {
+      "item": "minecraft:copper_block"
+    }
+  },
+  "result": {
+    "item": "musketmod:blunderbuss_barrel"
+  },
+  "show_notification": true
+}

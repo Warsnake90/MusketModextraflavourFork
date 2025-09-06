@@ -1,0 +1,24 @@
+{
+  "type": "overgeared:forging",
+  "category": "misc",
+  "tier": "iron",
+  "hammering": 3,
+  "has_quality": false,
+  "has_polishing": false,
+  "pattern": [
+    "#N#",
+    "NNN"
+  ],
+  "key": {
+    "N": {
+      "item": "overgeared:steel_nugget"
+    },
+    "#": {
+      "item": "overgeared:steel_block"
+    }
+  },
+  "result": {
+    "item": "musketmod:long_barrel"
+  },
+  "show_notification": true
+}
