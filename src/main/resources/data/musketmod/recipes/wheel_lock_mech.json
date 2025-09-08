@@ -1,0 +1,34 @@
+{
+  "type": "overgeared:forging",
+  "category": "misc",
+  "tier": "iron",
+  "hammering": 3,
+  "has_quality": false,
+  "has_polishing": false,
+  "pattern": [
+    "FS ",
+    "B#N",
+    "NNN"
+  ],
+  "key": {
+    "S": {
+      "item": "overgeared:steel_nugget"
+    },
+    "B": {
+      "item": "create:brass_sheet"
+    },
+    "N": {
+      "item": "create:brass_nugget"
+    },
+    "#": {
+      "item": "overgeared:steel_ingot"
+    },
+    "F": {
+      "item": "minecraft:flint"
+    }
+  },
+  "result": {
+    "item": "musketmod:wheel_lock"
+  },
+  "show_notification": true
+}

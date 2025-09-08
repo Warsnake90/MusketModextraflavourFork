@@ -1,0 +1,27 @@
+{
+  "type": "overgeared:forging",
+  "category": "misc",
+  "tier": "iron",
+  "hammering": 3,
+  "has_quality": false,
+  "has_polishing": false,
+  "pattern": [
+    "FS",
+    "#S"
+  ],
+  "key": {
+    "S": {
+      "item": "overgeared:steel_nugget"
+    },
+    "#": {
+      "item": "overgeared:steel_ingot"
+    },
+    "F": {
+      "item": "minecraft:flint"
+    }
+  },
+  "result": {
+    "item": "musketmod:flint_lock"
+  },
+  "show_notification": true
+}

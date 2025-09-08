@@ -48,6 +48,17 @@ public class Items {
     public static final Item UNFINISHED_RIFLE = new Item(new Item.Properties().stacksTo(1));
     public static final Item RAMROD = new Item(new Item.Properties().stacksTo(1));
 
+    //
+
+    public static final Item WORN_FLINT_LOCK = new Item(new Item.Properties().stacksTo(1));
+    public static final Item WORN_MATCH_LOCK = new Item(new Item.Properties().stacksTo(1));
+    public static final Item WORN_WHEEL_LOCK = new Item(new Item.Properties().stacksTo(1));
+    public static final Item WORN_SHORT_BARREL = new Item(new Item.Properties().stacksTo(1));
+    public static final Item WORN_MEDIUM_BARREL = new Item(new Item.Properties().stacksTo(1));
+    public static final Item WORN_LONG_BARREL = new Item(new Item.Properties().stacksTo(1));
+    public static final Item WORN_BLUNDERBUSS_BARREL = new Item(new Item.Properties().stacksTo(1));
+    public static final Item WORN_RIFLED_BARREL = new Item(new Item.Properties().stacksTo(1));
+
 
     //
 
@@ -104,6 +115,17 @@ public class Items {
         helper.accept("rifled_barrel", RIFLED_BARREL);
         helper.accept("unfinished_rifle_barrel", UNFINISHED_RIFLE);
         helper.accept("ramrod", RAMROD);
+
+        //
+
+        helper.accept("worn_flint_lock", WORN_FLINT_LOCK);
+        helper.accept("worn_wheel_lock", WORN_WHEEL_LOCK);
+        helper.accept("worn_match_lock", WORN_MATCH_LOCK);
+        helper.accept("worn_short_barrel", WORN_SHORT_BARREL);
+        helper.accept("worn_medium_barrel", WORN_MEDIUM_BARREL);
+        helper.accept("worn_long_barrel", WORN_LONG_BARREL);
+        helper.accept("worn_blunderbuss_barrel", WORN_BLUNDERBUSS_BARREL);
+        helper.accept("worn_rifled_barrel", WORN_RIFLED_BARREL);
     }
 
     public static void addToCreativeTab(ResourceKey<CreativeModeTab> tab, Consumer<Item> helper) {
@@ -138,6 +160,16 @@ public class Items {
             helper.accept(RIFLED_BARREL);
             helper.accept(UNFINISHED_RIFLE);
             helper.accept(RAMROD);
+
+            helper.accept(WORN_SHORT_BARREL);
+            helper.accept(WORN_MEDIUM_BARREL);
+            helper.accept(WORN_LONG_BARREL);
+            helper.accept(WORN_BLUNDERBUSS_BARREL);
+            helper.accept(WORN_RIFLED_BARREL);
+            helper.accept(WORN_FLINT_LOCK);
+            helper.accept(WORN_MATCH_LOCK);
+            helper.accept(WORN_WHEEL_LOCK);
+
         }
         if (tab == CreativeModeTabs.INGREDIENTS) {
             helper.accept(MUSKET_UPGRADE);

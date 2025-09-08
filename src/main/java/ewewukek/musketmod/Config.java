@@ -40,9 +40,9 @@ public class Config {
     public static final float DAMAGE_PER_POWER_LEVEL = 0.5f;
 
     public static float musketBulletStdDev;
-    public static final float MUSKET_BULLET_STD_DEV = 1.0f;
+    public static final float MUSKET_BULLET_STD_DEV = 2.5f;
     public static float musketBulletSpeed;
-    public static final float MUSKET_BULLET_SPEED = 180.0f;
+    public static final float MUSKET_BULLET_SPEED = 170.0f;
     public static float musketDamage;
     public static final float MUSKET_DAMAGE = 16.0f;
     public static float headshotDamageMultiplier;

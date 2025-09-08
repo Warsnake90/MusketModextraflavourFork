@@ -1,0 +1,39 @@
+{
+  "type": "overgeared:forging",
+  "category": "misc",
+  "tier": "iron",
+  "hammering": 6,
+  "has_quality": true,
+  "minimum_quality": "poor",
+  "needs_minigame": true,
+  "has_polishing": true,
+  "pattern": [
+    "## ",
+    "GIL",
+    "GPR"
+  ],
+  "key": {
+    "#": {
+      "item": "create:brass_nugget"
+    },
+    "G": {
+      "item": "create:brass_ingot"
+    },
+    "P": {
+      "item": "musketmod:carbine_body"
+    },
+    "I": {
+      "item": "musketmod:wheel_lock"
+    },
+    "L": {
+      "item": "musketmod:medium_barrel"
+    },
+    "R": {
+      "item": "musketmod:ramrod"
+    }
+  },
+  "result": {
+    "item": "musketmod:wheellock"
+  },
+  "show_notification": true
+}

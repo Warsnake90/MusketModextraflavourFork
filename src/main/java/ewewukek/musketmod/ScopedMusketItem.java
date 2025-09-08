@@ -26,7 +26,17 @@ public class ScopedMusketItem extends MusketItem {
 
     @Override
     public float bulletStdDev() {
-        return 2;
+        return 1;
+    }
+
+    @Override
+    public float damage() {
+        return 15;
+    }
+
+    @Override
+    public float bulletSpeed() {
+        return 200f;
     }
 
     @Override
@@ -36,8 +46,6 @@ public class ScopedMusketItem extends MusketItem {
 
     @Override
     public void appendHoverText(ItemStack itemStack, @Nullable Level level, List<Component> list, TooltipFlag tooltipFlag) {
-        super.appendHoverText(itemStack, level, list, tooltipFlag);
-
         list.add(Component.literal("Rifling allows this one to shoot far and fast.").withStyle(ChatFormatting.BLUE));
     }
 

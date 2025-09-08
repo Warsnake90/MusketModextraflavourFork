@@ -1,0 +1,35 @@
+{
+  "type": "overgeared:forging",
+  "category": "misc",
+  "tier": "iron",
+  "hammering": 4,
+  "has_quality": true,
+  "minimum_quality": "poor",
+  "needs_minigame": true,
+  "has_polishing": true,
+  "pattern": [
+    "GIL",
+    "GPR"
+  ],
+  "key": {
+    "G": {
+      "item": "overgeared:steel_ingot"
+    },
+    "P": {
+      "item": "musketmod:musket_body"
+    },
+    "I": {
+      "item": "musketmod:flint_lock"
+    },
+    "L": {
+      "item": "musketmod:long_barrel"
+    },
+    "R": {
+      "item": "musketmod:ramrod"
+    }
+  },
+  "result": {
+    "item": "musketmod:musket"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,39 @@
+{
+  "type": "overgeared:forging",
+  "category": "misc",
+  "tier": "iron",
+  "hammering": 4,
+  "has_quality": true,
+  "minimum_quality": "poor",
+  "needs_minigame": true,
+  "has_polishing": true,
+  "pattern": [
+    " T ",
+    "GIL",
+    "GPR"
+  ],
+  "key": {
+    "G": {
+      "item": "create:brass_ingot"
+    },
+    "P": {
+      "item": "musketmod:musket_body"
+    },
+    "I": {
+      "item": "musketmod:flint_lock"
+    },
+    "L": {
+      "item": "musketmod:rifled_barrel"
+    },
+    "R": {
+      "item": "musketmod:ramrod"
+    },
+    "T": {
+      "item": "minecraft:spyglass"
+    }
+  },
+  "result": {
+    "item": "musketmod:musket_with_scope"
+  },
+  "show_notification": true
+}
