@@ -12,7 +12,6 @@
   "item.musketmod.bayonet": "Bayonet",
   "item.musketmod.ramrod": "Ramrod",
 
-
   "item.musketmod.pistol_body": "Pistol Body",
   "item.musketmod.carbine_body": "Carbine Body",
   "item.musketmod.musket_body": "Musket Body",
@@ -30,8 +29,8 @@
   "item.musketmod.musket_upgrade_smithing_template": "Smithing Template",
   "item.musketmod.musket_upgrade": "Musket Upgrade",
   "item.musketmod.musket_upgrade.ingredients": "Iron Sword or Spyglass",
-  "item.musketmod.musket_upgrade.base_slot_description": "Add Musket",
-  "item.musketmod.musket_upgrade.additions_slot_description": "Add Iron Sword or Spyglass",
+  "item.musketmod.musket_upgrade.base_slot_description": "Add unfinished rifle barrel",
+  "item.musketmod.musket_upgrade.additions_slot_description": "Add Brass",
   "entity.musketmod.bullet": "Bullet",
   "musketmod.options.title": "Musket Mod",
   "musketmod.options.common": "Common",

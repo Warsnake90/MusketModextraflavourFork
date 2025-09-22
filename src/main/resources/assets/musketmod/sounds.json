@@ -68,5 +68,8 @@
   },
   "wheellock_pistol_fire": {
     "sounds": ["musketmod:wheellockpistol_fire"]
+  },
+  "matchlock_fire": {
+    "sounds": ["musketmod:matchlock_fire"]
   }
 }

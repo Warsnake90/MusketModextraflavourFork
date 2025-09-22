@@ -21,6 +21,7 @@ public static final SoundEvent DOPPELSTUZEN_FIRE = SoundEvent.createVariableRang
 public static final SoundEvent CARBINE_FIRE = SoundEvent.createVariableRangeEvent(MusketMod.resource("carbine_fire"));
 public static final SoundEvent WHEELLOCK_FIRE = SoundEvent.createVariableRangeEvent(MusketMod.resource("wheellock_fire"));
 public static final SoundEvent WHEELLOCK_PISTOL_FIRE = SoundEvent.createVariableRangeEvent(MusketMod.resource("wheellock_pistol_fire"));
+public static final SoundEvent MATCHLOCK_FIRE = SoundEvent.createVariableRangeEvent(MusketMod.resource("matchlock_fire"));
 
     public static void register(Consumer<SoundEvent> helper) {
         helper.accept(MUSKET_LOAD_0);

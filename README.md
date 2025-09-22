@@ -35,4 +35,5 @@ Fork specific
 - indeinerwand88 (Models)
 - SnowierPuppet (Textures)
 - me (coding + Models)
-
+- HBMNTM (I used some textures, it's an amazing mod please go play it)
+  https://github.com/HbmMods/Hbm-s-Nuclear-Tech-GIT

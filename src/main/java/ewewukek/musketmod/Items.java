@@ -29,8 +29,10 @@ public class Items {
     public static final Item CARBINE = new CarbineItem(new Item.Properties().stacksTo(1));
     public static final Item WHEELLOCK = new WheellockItem(new Item.Properties().stacksTo(1));
     public static final Item WHEELLOCKPISTOL = new WheellockPistoltem(new Item.Properties().stacksTo(1));
+    public static final Item MATCHLOCK = new MatchlockItem(new Item.Properties().stacksTo(1));
     public static final Item BAYONET = new SwordItem(
             Tiers.IRON, 2, -2, new Item.Properties().stacksTo(1).durability(150));
+
 
     //
 
@@ -50,14 +52,14 @@ public class Items {
 
     //
 
-    public static final Item WORN_FLINT_LOCK = new Item(new Item.Properties().stacksTo(1));
-    public static final Item WORN_MATCH_LOCK = new Item(new Item.Properties().stacksTo(1));
-    public static final Item WORN_WHEEL_LOCK = new Item(new Item.Properties().stacksTo(1));
-    public static final Item WORN_SHORT_BARREL = new Item(new Item.Properties().stacksTo(1));
-    public static final Item WORN_MEDIUM_BARREL = new Item(new Item.Properties().stacksTo(1));
-    public static final Item WORN_LONG_BARREL = new Item(new Item.Properties().stacksTo(1));
-    public static final Item WORN_BLUNDERBUSS_BARREL = new Item(new Item.Properties().stacksTo(1));
-    public static final Item WORN_RIFLED_BARREL = new Item(new Item.Properties().stacksTo(1));
+    public static final Item WORN_FLINT_LOCK = new FutureItem(new Item.Properties().stacksTo(1));
+    public static final Item WORN_MATCH_LOCK = new FutureItem(new Item.Properties().stacksTo(1));
+    public static final Item WORN_WHEEL_LOCK = new FutureItem(new Item.Properties().stacksTo(1));
+    public static final Item WORN_SHORT_BARREL = new FutureItem(new Item.Properties().stacksTo(1));
+    public static final Item WORN_MEDIUM_BARREL = new FutureItem(new Item.Properties().stacksTo(1));
+    public static final Item WORN_LONG_BARREL = new FutureItem(new Item.Properties().stacksTo(1));
+    public static final Item WORN_BLUNDERBUSS_BARREL = new FutureItem(new Item.Properties().stacksTo(1));
+    public static final Item WORN_RIFLED_BARREL = new FutureItem(new Item.Properties().stacksTo(1));
 
 
     //
@@ -99,6 +101,7 @@ public class Items {
         helper.accept("wheellockpistol", WHEELLOCKPISTOL);
         helper.accept("wheellock", WHEELLOCK);
         helper.accept("bayonet", BAYONET);
+        helper.accept("matchlock", MATCHLOCK);
 
         //
 
@@ -144,6 +147,7 @@ public class Items {
             helper.accept(WHEELLOCK);
             helper.accept(WHEELLOCKPISTOL);
             helper.accept(BAYONET);
+            helper.accept(MATCHLOCK);
 
             //
 

@@ -37,5 +37,24 @@
   "musketmod.options.durability": "Долговечность",
   "musketmod.options.bayonet_damage": "Повреждения от штыка",
   "musketmod.options.bayonet_attack_speed": "Скорость атаки штыком",
-  "musketmod.options.scope_zoom_factor": "Коэффициент увеличения"
+  "musketmod.options.scope_zoom_factor": "Коэффициент увеличения",
+
+  "item.musketmod.pistol_body": "Pistol Body",
+  "item.musketmod.carbine_body": "Carbine Body",
+  "item.musketmod.musket_body": "Musket Body",
+  "item.musketmod.flint_lock": "Flint Lock Mechanism",
+  "item.musketmod.match_lock": "Match Lock Mechanism",
+  "item.musketmod.wheel_lock": "Wheel Lock Mechanism",
+  "item.musketmod.short_barrel": "Short Barrel",
+  "item.musketmod.medium_barrel": "Medium Barrel",
+  "item.musketmod.long_barrel": "Long Barrel",
+  "item.musketmod.blunderbuss_barrel": "Blunderbuss Barrel",
+  "item.musketmod.rifled_barrel": "Rifled Barrel",
+  "item.musketmod.unfinished_rifle_barrel": "Unfinished Rifle Barrel",
+  "item.musketmod.doppelstutzen": "Doppelstutzen",
+  "item.musketmod.carbine": "Flintlock Carbine",
+  "item.musketmod.wheellock": "Wheellock Carbine",
+  "item.musketmod.wheellockpistol": "Wheellock Pistol",
+  "item.musketmod.bayonet": "Bayonet",
+  "item.musketmod.ramrod": "Ramrod"
 }

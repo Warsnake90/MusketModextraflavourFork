@@ -7,9 +7,6 @@ import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.Executor;
 import java.util.function.Supplier;
 
-import com.talhanation.recruits.compat.IWeapon;
-import ewewukek.musketmod.recruitscompat.CarbineWeapon;
-import ewewukek.musketmod.recruitscompat.WeaponCompat;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.resources.ResourceLocation;
@@ -88,8 +85,6 @@ public class MusketMod {
         event.register(ForgeRegistries.Keys.GLOBAL_LOOT_MODIFIER_SERIALIZERS,
             resource("loot_modifier"), () -> ModLootModifier.CODEC);
 
-        WeaponCompat.registerWeapons();
-        ewewukek.musketmod.recruitscompat.WeaponCompatInjector.injectCustomWeapons();
     }
 
 
