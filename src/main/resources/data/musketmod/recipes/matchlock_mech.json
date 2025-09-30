@@ -2,22 +2,21 @@
   "type": "overgeared:forging",
   "category": "misc",
   "tier": "iron",
-  "hammering": 3,
+  "hammering": 4,
   "has_quality": false,
   "has_polishing": false,
   "pattern": [
-    "#N#"
+    "SS ",
+    "SX ",
+    "S  "
   ],
   "key": {
-    "N": {
-      "item": "minecraft:heated_copper_ingot"
-    },
-    "#": {
-      "item": "minecraft:copper_block"
-    }
+    "S": { "item": "minecraft:string" },
+    "X": { "item": "overgeared:iron_plate" }
   },
   "result": {
-    "item": "musketmod:blunderbuss_barrel"
+    "item": "musketmod:match_lock",
+    "count": 1
   },
   "show_notification": true
 }

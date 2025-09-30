@@ -23,7 +23,7 @@ abstract class MinecraftMixin {
     @Inject(method = "startAttack", at = @At("HEAD"), cancellable = true)
     private void startAttack(CallbackInfoReturnable<Boolean> ci) {
         if (ScopedMusketItem.isScoping) {
-            startUseItem();
+
             ci.cancel();
         }
     }

@@ -1,0 +1,40 @@
+{
+  "type": "overgeared:forging",
+  "category": "misc",
+  "tier": "iron",
+  "hammering": 3,
+  "has_quality": true,
+  "has_polishing": false,
+  "pattern": [
+    "NN ",
+    "#CB",
+    "RTF"
+  ],
+  "key": {
+    "N": {
+      "item": "overgeared:steel_nugget"
+    },
+    "#": {
+      "item": "minecraft:copper_block"
+    },
+    "C": {
+      "item": "musketmod:flint_lock"
+    },
+    "B": {
+      "item": "musketmod:blunderbuss_barrel"
+    },
+    "R": {
+      "item": "overgeared:heated_steel_ingot"
+    },
+    "T": {
+      "item": "musketmod:musket_body"
+    },
+    "F": {
+      "item": "musketmod:ramrod"
+    }
+  },
+  "result": {
+    "item": "musketmod:blunderbuss"
+  },
+  "show_notification": true
+}

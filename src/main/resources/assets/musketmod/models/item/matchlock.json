@@ -171,6 +171,13 @@
       "predicate": {
         "musketmod:loaded": 1
       }
+    },
+    {
+      "model": "musketmod:item/matchlock_loaded",
+      "predicate": {
+        "musketmod:aiming": 1,
+        "musketmod:loaded": 1
+      }
     }
   ]
 }

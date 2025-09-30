@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TTT",
+    "PS "
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:paper"
+    },
+    "P": {
+      "item": "minecraft:gunpowder"
+    },
+    "T": {
+      "item": "minecraft:iron_nugget"
+    }
+
+  },
+  "result": {
+    "item": "musketmod:cartridge",
+    "count": 3
+  }
+}

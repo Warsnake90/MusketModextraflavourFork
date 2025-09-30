@@ -13,13 +13,13 @@
   ],
   "key": {
     "G": {
-      "item": "overgeared:heated_steel_ingot"
+      "item": "overgeared:heated_iron_ingot"
     },
     "P": {
       "item": "musketmod:musket_body"
     },
     "I": {
-      "item": "musketmod:flint_lock"
+      "item": "musketmod:match_lock"
     },
     "L": {
       "item": "musketmod:long_barrel"
@@ -29,7 +29,7 @@
     }
   },
   "result": {
-    "item": "musketmod:musket"
+    "item": "musketmod:matchlock"
   },
   "show_notification": true
 }

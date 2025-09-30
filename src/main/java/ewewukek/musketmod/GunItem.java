@@ -33,7 +33,6 @@ import net.minecraft.world.scores.criteria.ObjectiveCriteria;
 import java.util.List;
 
 public abstract class GunItem extends Item {
-    // for RenderHelper
     public static ItemStack activeMainHandStack;
     public static ItemStack activeOffhandStack;
 
@@ -66,7 +65,7 @@ public abstract class GunItem extends Item {
         return 1;
     }
 
-    // use fireSound(ItemStack)
+    // uhhh do whatever that is nextime
     @Deprecated
     public SoundEvent fireSound() {
         return fireSound(ItemStack.EMPTY);
@@ -84,7 +83,7 @@ public abstract class GunItem extends Item {
         if (twoHanded()) {
             return false;
         }
-        // pistol in offhand is unusable if musket is equipped in main hand
+        // don't use pistol when you only have 2 hands!
         ItemStack stack = entity.getMainHandItem();
         if (!stack.isEmpty() && stack.getItem() instanceof GunItem gun) {
             return !gun.twoHanded();
@@ -142,7 +141,7 @@ public abstract class GunItem extends Item {
     }
 
     public static Pair<Integer, Integer> getLoadingDuration(ItemStack stack) {
-
+        // holy shit this sucks so bad, please don't crucify me
         if (stack.getItem() instanceof DoppelstutzenItem) {
             int level = getQuickChargeLevel(stack);
             int stages = 8;
@@ -223,14 +222,25 @@ public abstract class GunItem extends Item {
                                         if (level == 3) stages--;
                                         return Pair.of(stages, (int) (20 * duration));
                                     } else {
-                                        int level = getQuickChargeLevel(stack);
-                                        int stages = Config.loadingStages;
-                                        float total = stages * Config.loadingStageDuration;
-                                        float reduction = level * Config.reductionPerQuickChargeLevel;
-                                        float duration = (total - reduction) / stages;
-                                        if (duration < 0.25f) duration = 0.25f;
-                                        if (level == 3) stages--;
-                                        return Pair.of(stages, (int) (20 * duration));
+                                        if (stack.getItem() instanceof MatchlockItem) {
+                                            int level = getQuickChargeLevel(stack);
+                                            int stages = 5;
+                                            float total = stages * 1.5f;
+                                            float reduction = level * Config.reductionPerQuickChargeLevel;
+                                            float duration = (total - reduction) / stages;
+                                            if (duration < 0.25f) duration = 0.25f;
+                                            if (level == 3) stages--;
+                                            return Pair.of(stages, (int) (20 * duration));
+                                        } else {
+                                            int level = getQuickChargeLevel(stack);
+                                            int stages = Config.loadingStages;
+                                            float total = stages * Config.loadingStageDuration;
+                                            float reduction = level * Config.reductionPerQuickChargeLevel;
+                                            float duration = (total - reduction) / stages;
+                                            if (duration < 0.25f) duration = 0.25f;
+                                            if (level == 3) stages--;
+                                            return Pair.of(stages, (int) (20 * duration));
+                                        }
                                     }
                                 }
                             }
@@ -266,7 +276,7 @@ public abstract class GunItem extends Item {
             return InteractionResultHolder.consume(stack);
 
         } else if (hand == InteractionHand.MAIN_HAND) {
-            // shoot from offhand if it's loaded
+            // shoot from offhand if it's loaded or smth
             ItemStack offhandStack = player.getOffhandItem();
             if (offhandStack.getItem() instanceof GunItem offhandGun && isLoaded(offhandStack)
                     && offhandGun.canUseFrom(player, InteractionHand.OFF_HAND)) {
@@ -400,7 +410,13 @@ public abstract class GunItem extends Item {
             if (ammoStack.isEmpty()) {
                 player.getInventory().removeItem(ammoStack);
             }
-        } else {
+        } else if (stack.getItem() instanceof BlunderbussItem) {
+            ItemStack ammoStack = findAmmo(player);
+            ammoStack.shrink(5);
+            if (ammoStack.isEmpty()) {
+                player.getInventory().removeItem(ammoStack);
+            }
+        }else {
             ItemStack ammoStack = findAmmo(player);
             ammoStack.shrink(1);
             if (ammoStack.isEmpty()) {

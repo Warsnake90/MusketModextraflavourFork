@@ -44,7 +44,7 @@ public class MatchlockItem extends GunItem {
     public void appendHoverText(ItemStack itemStack, @Nullable Level level, List<Component> list, TooltipFlag tooltipFlag) {
         super.appendHoverText(itemStack, level, list, tooltipFlag);
 
-        list.add(Component.literal("It's really old... And unwieldy. ").withStyle(ChatFormatting.BLUE));
+        list.add(Component.literal("It's really old... and unwieldy. ").withStyle(ChatFormatting.BLUE));
     }
 
     @Override
