@@ -25,8 +25,8 @@ Credits
 - Mojang (duh)
 - Minecraft Forge and guys from the forum
 - FabricMC
-- lilypuree (fixes and Korean translation)
-- MikhailTapio (Chinese translation)
+- lilypuree (fixes and Korean translation - Not fully fork supported sorry I dont speak korean)
+- MikhailTapio (Chinese translation - Not fully fork supported sorry I dont speak chinese)
 - Xannosz & SkpC9 (1.20.x update)
 - ewewukek (Original mod author)
 
@@ -35,5 +35,6 @@ Fork specific
 - indeinerwand88 (Models)
 - SnowierPuppet (Textures)
 - me (coding + Models)
+- Maxaiw (Russian translation)
 - HBMNTM (I used some textures, it's an amazing mod please go play it)
   https://github.com/HbmMods/Hbm-s-Nuclear-Tech-GIT
