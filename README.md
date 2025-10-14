@@ -36,5 +36,5 @@ Fork specific
 - SnowierPuppet (Textures)
 - me (coding + Models)
 - Maxaiw (Russian translation)
-- HBMNTM (I used some textures, it's an amazing mod please go play it)
+- HBM's NTM (I used some textures, it's an amazing mod please go play it)
   https://github.com/HbmMods/Hbm-s-Nuclear-Tech-GIT
