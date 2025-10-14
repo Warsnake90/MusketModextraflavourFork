@@ -13,18 +13,18 @@ This is early development and is not finished, If you have a really good suggest
 
 **FAQ**
 
-Q: How to attack the bayonet to the muskets.  
+Q: How to attack the bayonet to the muskets?  
 A: Put Bayonet in off-hand, with a musket in main hand then shift right click.  
 
-Q: Why Can I not see the recipe for the dopp.  
+Q: Why Can I not see the recipe for the dopp?  
 A: The Dopp isn't craftable due to it being busted asf, aswell it was very rare irl
-so you should have an admin spawn it for you for winning events etc.
+so you should have an admin spawn it in for winning events etc.
 
-Q: Why no fabric  
-A: i'm too lazy to do fabric, plus i have no experienced with fabric.
+Q: Why no fabric?  
+A: i'm too lazy to do fabric, plus I have no experienced with fabric.
 
 
-Q: I found a bug, what do I do.  
+Q: I found a bug, what do I do?  
 A: make an issue report with the logs file, aswell steps to reproduce said bug. 
 
 
@@ -43,8 +43,8 @@ Credits
 - Mojang (duh)
 - Minecraft Forge and guys from the forum
 - FabricMC
-- lilypuree (fixes and Korean translation - Not fully fork supported sorry I dont speak korean)
-- MikhailTapio (Chinese translation - Not fully fork supported sorry I dont speak chinese)
+- lilypuree (fixes and Korean translation - Not fully fork supported sorry I don't speak korean)
+- MikhailTapio (Chinese translation - Not fully fork supported sorry I don't speak Mandarin)
 - Xannosz & SkpC9 (1.20.x update)
 - ewewukek (Original mod author)
 
@@ -54,5 +54,5 @@ Fork specific
 - SnowierPuppet (Textures)
 - me (coding + Models)
 - Maxaiw (Russian translation)
-- HBM's NTM (I used some textures, it's an amazing mod please go play it)
-  https://github.com/HbmMods/Hbm-s-Nuclear-Tech-GIT
+- [HBM's NTM](https://github.com/HbmMods/Hbm-s-Nuclear-Tech-GIT) (I used some textures, it's an amazing mod please go play it)
+  
