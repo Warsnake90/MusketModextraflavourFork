@@ -2,22 +2,19 @@
   "type": "overgeared:forging",
   "category": "misc",
   "tier": "iron",
-  "hammering": 3,
+  "hammering": 1,
   "has_quality": false,
   "has_polishing": false,
   "pattern": [
-    "#N#"
+    " # "
   ],
   "key": {
-    "N": {
-      "item": "overgeared:heated_copper_ingot"
-    },
     "#": {
-      "item": "minecraft:copper_block"
+      "item": "overgeared:steel_ingot"
     }
   },
   "result": {
-    "item": "musketmod:blunderbuss_barrel"
+    "item": "magistuarmory:steel_ingot"
   },
   "show_notification": true
 }

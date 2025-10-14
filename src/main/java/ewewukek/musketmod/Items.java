@@ -30,8 +30,8 @@ public class Items {
     public static final Item WHEELLOCK = new WheellockItem(new Item.Properties().stacksTo(1));
     public static final Item WHEELLOCKPISTOL = new WheellockPistoltem(new Item.Properties().stacksTo(1));
     public static final Item MATCHLOCK = new MatchlockItem(new Item.Properties().stacksTo(1));
-    public static final Item BAYONET = new SwordItem(
-            Tiers.IRON, 2, -2, new Item.Properties().stacksTo(1).durability(150));
+    public static final Item BAYONET = new BayonetItem(new Item.Properties().stacksTo(1).durability(250)
+    );
 
 
     //

@@ -74,7 +74,7 @@ public class MusketItem extends GunItem {
         }
 
             if (bayoneted) {
-                list.add(Component.literal("This musket was fitted for qcq.").withStyle(ChatFormatting.BLUE));
+                list.add(Component.literal("This musket was fitted for cqc.").withStyle(ChatFormatting.BLUE));
             }
 
             if (!bayoneted) {

@@ -5,7 +5,7 @@ issueTrackerURL="https://github.com/Warsnake90/MusketModextraflavourFork"
 
 [[mods]]
 modId="musketmod"
-version="1.20.1Forge-Fork-1.0.0"
+version="1.20.1Forge-Fork-1.2.0"
 displayName="Musket Mod"
 #updateJSONURL=""
 displayURL="https://github.com/Warsnake90/MusketModextraflavourFork"
@@ -14,7 +14,7 @@ credits="lilypuree, MikhailTapio, Xannosz, SkpC9 for their contribution, -, Snow
 authors="ewewukek, Warsnake(Fork)"
 description='''
 Small mod that adds craftable muskets and pistols.
-This is a forked version made for the GCL4 server.
+This is a forked version.
 '''
 
 [[dependencies.musketmod]]

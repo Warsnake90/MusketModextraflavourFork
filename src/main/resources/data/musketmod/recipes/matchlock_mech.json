@@ -12,7 +12,7 @@
   ],
   "key": {
     "S": { "item": "minecraft:string" },
-    "X": { "item": "overgeared:iron_plate" }
+    "X": { "tag": "musketmod:iron_sheets" }
   },
   "result": {
     "item": "musketmod:match_lock",

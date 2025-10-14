@@ -1,0 +1,9 @@
+{
+  "values": [
+    "musketmod:long_barrel",
+    "musketmod:medium_barrel",
+    "musketmod:rifled_barrel",
+    "musketmod:blunderbuss_barrel",
+    "musketmod:unfinished_rifle_barrel"
+  ]
+}
