@@ -2,7 +2,7 @@
 
 [Download Original from CurseForge](https://www.curseforge.com/minecraft/mc-mods/ewewukeks-musket-mod/files/all)\
 [Download Original from modrinth](https://modrinth.com/mod/ewewukeks-musket-mod/versions)\
-[Download Original from Github](https://github.com/ewewukek/mc-musketmod)\
+[Download Original from Github](https://github.com/ewewukek/mc-musketmod)
 
 -------------------
 
@@ -13,17 +13,18 @@ This is early development and is not finished, If you have a really good suggest
 
 **FAQ**
 
-Q: How to attack the bayonet to the muskets. 
-A: Put Bayonet in off-hand, with a musket in main hand then shift right click.
+Q: How to attack the bayonet to the muskets.  
+A: Put Bayonet in off-hand, with a musket in main hand then shift right click.  
 
-Q: Why Can I not see the recipe for the dopp.
+Q: Why Can I not see the recipe for the dopp.  
 A: The Dopp isn't craftable due to it being busted asf, aswell it was very rare irl
 so you should have an admin spawn it for you for winning events etc.
 
-Q: Why no fabric
+Q: Why no fabric  
 A: i'm too lazy to do fabric, plus i have no experienced with fabric.
 
-Q: I found a bug, what do I do.
+
+Q: I found a bug, what do I do.  
 A: make an issue report with the logs file, aswell steps to reproduce said bug. 
 
 
@@ -31,10 +32,11 @@ A: make an issue report with the logs file, aswell steps to reproduce said bug.
 
 Dependencies
 
-- Cloth Config - https://www.curseforge.com/minecraft/mc-mods/cloth-config/files/5729105 (Hard dependency) 
-- Overgeared - https://www.curseforge.com/minecraft/mc-mods/overgeared (Hard dependency)
-- Create - https://www.curseforge.com/minecraft/mc-mods/create (Will break some recipes if not installed)
+- [Cloth Config](https://www.curseforge.com/minecraft/mc-mods/cloth-config/files/5729105) - Hard dependency
+- [Overgeared](https://www.curseforge.com/minecraft/mc-mods/overgeared) - Hard dependency
+- [Create](https://www.curseforge.com/minecraft/mc-mods/create) - Will break some recipes if not installed
 
+-------------------
 
 Credits
 
