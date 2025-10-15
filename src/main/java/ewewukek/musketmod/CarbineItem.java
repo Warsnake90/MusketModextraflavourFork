@@ -32,7 +32,7 @@ public class CarbineItem extends GunItem {
 
     @Override
     public float damage() {
-        return 11;
+        return 10;
     }
 
     @Override

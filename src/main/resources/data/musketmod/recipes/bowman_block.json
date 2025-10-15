@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MLM",
+    "LXL",
+    "MLM"
+  ],
+  "key": {
+    "L": {
+      "tag": "minecraft:logs"
+    },
+    "M": {
+      "tag": "forge:ingots/iron"
+    },
+    "X": {
+      "item": "magistuarmory:longbow"
+    }
+  },
+  "result": {
+    "item": "recruits:bowman_block",
+    "count": 1
+  }
+}

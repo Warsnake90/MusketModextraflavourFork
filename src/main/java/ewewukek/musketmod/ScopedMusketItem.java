@@ -31,7 +31,7 @@ public class ScopedMusketItem extends MusketItem {
 
     @Override
     public float damage() {
-        return 15;
+        return 18;
     }
 
     @Override

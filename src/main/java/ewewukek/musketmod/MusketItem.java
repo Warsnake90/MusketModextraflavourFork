@@ -26,7 +26,7 @@ public class MusketItem extends GunItem {
         if (withBayonet) {
             ImmutableMultimap.Builder<Attribute, AttributeModifier> builder = ImmutableMultimap.builder();
             builder.put(Attributes.ATTACK_DAMAGE, new AttributeModifier(
-                BASE_ATTACK_DAMAGE_UUID, "Weapon modifier", Config.bayonetDamage - 1, AttributeModifier.Operation.ADDITION));
+                BASE_ATTACK_DAMAGE_UUID, "Weapon modifier", Config.bayonetDamage - 0f, AttributeModifier.Operation.ADDITION));
             builder.put(Attributes.ATTACK_SPEED, new AttributeModifier(
                 BASE_ATTACK_SPEED_UUID, "Weapon modifier", Config.bayonetSpeed - 4, AttributeModifier.Operation.ADDITION));
             bayonetAttributeModifiers = builder.build();
@@ -47,7 +47,7 @@ public class MusketItem extends GunItem {
 
     @Override
     public float damage() {
-        return 10;
+        return 14;
     }
 
     @Override
@@ -76,7 +76,6 @@ public class MusketItem extends GunItem {
             if (bayoneted) {
                 list.add(Component.literal("This musket was fitted for cqc.").withStyle(ChatFormatting.BLUE));
             }
-
             if (!bayoneted) {
             list.add(Component.literal("Standard Firearm of armies around the world.").withStyle(ChatFormatting.BLUE));
             }

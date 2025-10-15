@@ -20,7 +20,7 @@ public class PistolItem extends GunItem {
 
     @Override
     public float damage() {
-        return Config.pistolDamage;
+        return 8f;
     }
 
     @Override

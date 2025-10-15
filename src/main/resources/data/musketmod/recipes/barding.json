@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  M",
+    "MSM",
+    "MMM"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:saddle"
+    },
+    "M": {
+      "tag": "forge:ingots/steel"
+    }
+  },
+  "result": {
+    "item": "magistuarmory:barding",
+    "count": 1
+  }
+}
