@@ -6,7 +6,7 @@
   "has_quality": false,
   "has_polishing": false,
   "pattern": [
-    " # "
+    "## "
   ],
   "key": {
     "#": {

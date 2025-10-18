@@ -1,0 +1,30 @@
+{
+  "type": "overgeared:forging",
+  "category": "misc",
+  "tier": "iron",
+  "hammering": 5,
+  "has_quality": true,
+  "minimum_quality": "poor",
+  "needs_minigame": true,
+  "has_polishing": true,
+  "pattern": [
+    "LS ",
+    "L  ",
+    "#  "
+  ],
+  "key": {
+    "L": {
+      "item": "overgeared:heated_steel_ingot"
+    },
+    "#": {
+      "item": "magistuarmory:hilt"
+    },
+    "S": {
+      "tag": "forge:nuggets/steel"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:steel_scimitar"
+  },
+  "show_notification": true
+}

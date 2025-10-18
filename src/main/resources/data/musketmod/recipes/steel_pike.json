@@ -1,0 +1,30 @@
+{
+  "type": "overgeared:forging",
+  "category": "misc",
+  "tier": "iron",
+  "hammering": 4,
+  "has_quality": true,
+  "minimum_quality": "poor",
+  "needs_minigame": true,
+  "has_polishing": true,
+  "pattern": [
+    "  L",
+    " # ",
+    "S  "
+  ],
+  "key": {
+    "L": {
+      "item": "overgeared:heated_steel_ingot"
+    },
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "S": {
+      "item": "magistuarmory:pole"
+    }
+  },
+  "result": {
+    "item": "magistuarmory:steel_pike"
+  },
+  "show_notification": true
+}

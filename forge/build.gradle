@@ -85,6 +85,14 @@ dependencies {
 
     implementation fg.deobf("curse.maven:create-328085:6641603")
 
+    // epic knights
+
+    implementation fg.deobf("curse.maven:epic-knights-armor-and-weapons-509041:6028374")
+    implementation fg.deobf("curse.maven:epic-knights-addon-925866:6036869")
+    implementation fg.deobf("curse.maven:epic-knights-slavic-armory-942000:5458480")
+    implementation fg.deobf("curse.maven:epic-knights-antique-legacy-1033634:5496564")
+    // implementation fg.deobf("curse.maven:epic-knights-open-helms-1176829:6159457")
+
     // for testing shit
 
     runtimeOnly fg.deobf("curse.maven:jei-238222:6600311")
@@ -93,7 +101,6 @@ dependencies {
     runtimeOnly fg.deobf("curse.maven:workers-523860:${recruits_identifier}")
 
     runtimeOnly fg.deobf("dev.architectury:architectury-forge:${architectury_api_version}")
-    runtimeOnly fg.deobf("curse.maven:epic-knights-armor-and-weapons-509041:6028374")
 }
 
 sourceSets.main.refMap = 'mixins.musketmod.refmap.json'

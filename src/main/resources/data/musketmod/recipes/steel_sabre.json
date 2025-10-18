@@ -1,0 +1,27 @@
+{
+  "type": "overgeared:forging",
+  "category": "misc",
+  "tier": "iron",
+  "hammering": 5,
+  "has_quality": true,
+  "minimum_quality": "poor",
+  "needs_minigame": true,
+  "has_polishing": true,
+  "pattern": [
+    " LL",
+    "LL ",
+    "#  "
+  ],
+  "key": {
+    "L": {
+      "item": "overgeared:heated_steel_ingot"
+    },
+    "#": {
+      "item": "magistuarmory:hilt"
+    }
+  },
+  "result": {
+    "item": "magistuarmoryaddon:steel_cavary_saber"
+  },
+  "show_notification": true
+}
