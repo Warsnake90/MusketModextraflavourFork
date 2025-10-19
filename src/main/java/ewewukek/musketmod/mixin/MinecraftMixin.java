@@ -23,7 +23,7 @@ abstract class MinecraftMixin {
     @Inject(method = "startAttack", at = @At("HEAD"), cancellable = true)
     private void startAttack(CallbackInfoReturnable<Boolean> ci) {
         if (ScopedMusketItem.isScoping) {
-
+            startUseItem();
             ci.cancel();
         }
     }
@@ -43,14 +43,14 @@ abstract class MinecraftMixin {
         ItemStack stack = player.getMainHandItem();
 
         boolean canUseScope = stack.getItem() == Items.MUSKET_WITH_SCOPE
-            && GunItem.canUse(player)
-            && client.options.getCameraType().isFirstPerson();
+                && GunItem.canUse(player)
+                && client.options.getCameraType().isFirstPerson();
 
         if (player.isUsingItem()) {
             ItemStack usedStack = player.getUseItem();
             int delay = canUseScope ? 10 : 5;
             if (usedStack.getItem() instanceof GunItem && GunItem.isLoaded(usedStack)
-            && player.getTicksUsingItem() >= GunItem.reloadDuration(usedStack) + delay) {
+                    && player.getTicksUsingItem() >= GunItem.reloadDuration(usedStack) + delay) {
 
                 ClientUtilities.preventFiring = true;
                 client.gameMode.releaseUsingItem(player);
@@ -58,7 +58,7 @@ abstract class MinecraftMixin {
         }
 
         boolean canContinueScoping = client.options.keyUse.isDown()
-            && (GunItem.isReady(stack) || client.options.keyAttack.isDown());
+                && (GunItem.isReady(stack) || client.options.keyAttack.isDown());
 
         if (!canUseScope || !canContinueScoping) {
             ClientUtilities.setScoping(player, false);

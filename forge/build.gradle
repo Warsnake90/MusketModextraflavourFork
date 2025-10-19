@@ -42,16 +42,9 @@ minecraft {
         }
 
         client {
-            property 'forge.enabledGameTestNamespaces', mod_id
-            property 'mixin.env.remapRefMap', 'true'
-            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
         }
 
         server {
-            property 'forge.enabledGameTestNamespaces', mod_id
-            args '--nogui'
-            property 'mixin.env.remapRefMap', 'true'
-            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
         }
     }
 }
@@ -60,21 +53,16 @@ sourceSets.main.java { srcDir '../src/main/java' }
 sourceSets.main.resources { srcDir '../src/main/resources' }
 
 repositories {
-
-    mavenCentral()
     maven { url "https://maven.shedaniel.me/" }
+
     maven { url "https://cursemaven.com"}
     maven { url 'https://jitpack.io' }
     maven { url "https://maven.architectury.dev/" }
     maven { url "https://maven.shedaniel.me/" }
-
-
 }
-
 
 dependencies {
     minecraft "net.minecraftforge:forge:${forge_version}"
-    annotationProcessor 'org.spongepowered:mixin:0.8.7:processor'
 
     // depenendencies
 
@@ -101,6 +89,11 @@ dependencies {
     runtimeOnly fg.deobf("curse.maven:workers-523860:${recruits_identifier}")
 
     runtimeOnly fg.deobf("dev.architectury:architectury-forge:${architectury_api_version}")
+
+    // ./gradlew --console=plain dependencies | grep mixin
+    annotationProcessor 'org.spongepowered:mixin:0.8.7:processor'
+
+    implementation "me.shedaniel.cloth:cloth-config-forge:${cloth_config_version}"
 }
 
 sourceSets.main.refMap = 'mixins.musketmod.refmap.json'
@@ -117,7 +110,7 @@ mixin {
 jar {
     manifest {
         attributes([
-            MixinConfigs: 'musketmod.mixins.json',
+                MixinConfigs: 'musketmod.mixins.json',
         ])
     }
 }
@@ -125,7 +118,7 @@ jar {
 tasks.named('processResources', ProcessResources).configure {
     filesMatching('META-INF/mods.toml') {
         expand [
-            mod_version: mod_version,
+                mod_version: mod_version,
         ]
     }
 }
