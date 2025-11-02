@@ -11,7 +11,7 @@ import java.util.List;
 public class BayonetItem extends SwordItem {
 
     public BayonetItem(Properties properties) {
-        super(Tiers.IRON, 3, -2.4F, properties);
+        super(Tiers.IRON, 1, -2.4F, properties);
     }
 
     @Override
