@@ -1,0 +1,23 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "musketmod:soralum_alloy_coin"
+    }
+  ],
+  "results": [
+    {
+      "count": 3,
+      "item": "minecraft:gold_nugget"
+    },
+    {
+      "count": 4,
+      "item": "create:copper_nugget"
+    },
+    {
+      "count": 1,
+      "item": "create_ironworks:tin_nugget"
+    }
+  ]
+}

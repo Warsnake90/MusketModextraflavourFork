@@ -1,0 +1,25 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/brass"
+    },
+    {
+      "tag": "forge:ingots/gold"
+    },
+    {
+      "tag": "forge:ingots/bronze"
+    }
+  ],
+  "results": [
+    {
+      "count": 2,
+      "item": "musketmod:soralum_alloy_ingot"
+    },
+    {
+      "count": 6,
+      "item": "musketmod:soralum_alloy_nugget"
+    }
+  ]
+}

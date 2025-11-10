@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "musketmod:soralum_alloy_coin_stack"
+    }
+  ],
+  "result": {
+    "item": "musketmod:soralum_alloy_coin",
+    "count": 4
+  }
+}

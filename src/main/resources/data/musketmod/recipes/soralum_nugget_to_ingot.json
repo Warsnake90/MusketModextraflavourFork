@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SSS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "musketmod:soralum_alloy_nugget"
+    }
+  },
+  "result": {
+    "item": "musketmod:soralum_alloy_ingot",
+    "count": 1
+  }
+}

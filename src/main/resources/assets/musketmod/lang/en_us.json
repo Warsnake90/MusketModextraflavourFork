@@ -13,6 +13,11 @@
   "item.musketmod.bayonet": "Bayonet",
   "item.musketmod.ramrod": "Ramrod",
 
+  "item.musketmod.soralum_alloy_ingot": "Solaurium Ingot",
+  "item.musketmod.soralum_alloy_nugget": "Solaurium Nugget",
+  "item.musketmod.soralum_alloy_coin": "Solaurium Coin",
+  "item.musketmod.soralum_alloy_coin_stack": "Solaurium Coin Stack",
+
   "item.musketmod.pistol_body": "Pistol Body",
   "item.musketmod.carbine_body": "Carbine Body",
   "item.musketmod.musket_body": "Musket Body",

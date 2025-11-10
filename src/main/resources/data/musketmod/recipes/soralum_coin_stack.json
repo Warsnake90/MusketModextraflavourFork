@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SS",
+    "SS"
+  ],
+  "key": {
+    "S": {
+      "item": "musketmod:soralum_alloy_coin"
+    }
+  },
+  "result": {
+    "item": "musketmod:soralum_alloy_coin_stack",
+    "count": 1
+  }
+}

@@ -61,8 +61,12 @@ public class Items {
     public static final Item WORN_BLUNDERBUSS_BARREL = new FutureItem(new Item.Properties().stacksTo(1));
     public static final Item WORN_RIFLED_BARREL = new FutureItem(new Item.Properties().stacksTo(1));
 
-
     //
+
+    public static final Item SORALUM_ALLOY_INGOT = new Item(new Item.Properties());
+    public static final Item SORALUM_ALLOY_COIN = new CoinItem(new Item.Properties());
+    public static final Item SORALUM_ALLOY_COIN_STACK = new CoinItem(new Item.Properties());
+    public static final Item SORALUM_ALLOY_NUGGET = new CoinItem(new Item.Properties());
 
     public static final ResourceLocation EMPTY_SLOT_MUSKET = MusketMod.resource("item/empty_slot_musket");
     public static final ResourceLocation EMPTY_SLOT_SPYGLASS = new ResourceLocation("item/empty_slot_spyglass");
@@ -121,6 +125,13 @@ public class Items {
 
         //
 
+        helper.accept("soralum_alloy_ingot", SORALUM_ALLOY_INGOT);
+        helper.accept("soralum_alloy_coin", SORALUM_ALLOY_COIN);
+        helper.accept("soralum_alloy_coin_stack", SORALUM_ALLOY_COIN_STACK);
+        helper.accept("soralum_alloy_nugget", SORALUM_ALLOY_NUGGET);
+
+        //
+
         helper.accept("worn_flint_lock", WORN_FLINT_LOCK);
         helper.accept("worn_wheel_lock", WORN_WHEEL_LOCK);
         helper.accept("worn_match_lock", WORN_MATCH_LOCK);
@@ -164,6 +175,15 @@ public class Items {
             helper.accept(RIFLED_BARREL);
             helper.accept(UNFINISHED_RIFLE);
             helper.accept(RAMROD);
+
+            //
+
+            helper.accept(SORALUM_ALLOY_INGOT);
+            helper.accept(SORALUM_ALLOY_COIN);
+            helper.accept(SORALUM_ALLOY_COIN_STACK);
+            helper.accept(SORALUM_ALLOY_NUGGET);
+
+            //
 
             helper.accept(WORN_SHORT_BARREL);
             helper.accept(WORN_MEDIUM_BARREL);
