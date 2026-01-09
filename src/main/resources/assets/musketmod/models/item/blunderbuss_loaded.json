@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "musketmod:item/flintlock_blunderbuss",
+		"0": "musketmod:item/blunderbuss",
 		"particle": "musketmod:item/flintlock_blunderbuss"
 	},
 	"elements": [

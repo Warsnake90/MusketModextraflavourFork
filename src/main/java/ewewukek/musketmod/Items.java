@@ -22,6 +22,7 @@ public class Items {
     public static final Item PISTOL = new PistolItem(new Item.Properties()
         .durability(Config.pistolDurability));
     public static final Item CARTRIDGE = new CartridgeItem(new Item.Properties());
+    public static final Item LEAD_BALL = new ewewukek.musketmod.BallItem(new Item.Properties());
 
     //
 
@@ -30,9 +31,7 @@ public class Items {
     public static final Item WHEELLOCK = new WheellockItem(new Item.Properties().stacksTo(1));
     public static final Item WHEELLOCKPISTOL = new WheellockPistoltem(new Item.Properties().stacksTo(1));
     public static final Item MATCHLOCK = new MatchlockItem(new Item.Properties().stacksTo(1));
-    public static final Item BAYONET = new BayonetItem(new Item.Properties().stacksTo(1).durability(250)
-    );
-
+    public static final Item BAYONET = new BayonetItem(new Item.Properties().stacksTo(1).durability(250));
 
     //
 
@@ -95,6 +94,7 @@ public class Items {
         helper.accept("musket_with_scope", MUSKET_WITH_SCOPE);
         helper.accept("blunderbuss", BLUNDERBUSS);
         helper.accept("pistol", PISTOL);
+        helper.accept("lead_ball", LEAD_BALL);
         helper.accept("cartridge", CARTRIDGE);
         helper.accept("musket_upgrade_smithing_template", MUSKET_UPGRADE);
 
@@ -150,6 +150,7 @@ public class Items {
             helper.accept(BLUNDERBUSS);
             helper.accept(PISTOL);
             helper.accept(CARTRIDGE);
+            helper.accept(LEAD_BALL);
 
             //
 

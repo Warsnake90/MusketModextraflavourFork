@@ -594,17 +594,29 @@ public abstract class GunItem extends Item {
         return stack.getItem() == Items.CARTRIDGE;
     }
 
+    public static boolean isPowder(ItemStack stack) {
+        System.out.println("Please do not run this yet thanks...");
+        // return stack.getItem() == Items. # Replace this later when I do this;
+        return false;
+    }
+
     public static ItemStack findAmmo(Player player) {
         ItemStack stack = player.getItemBySlot(EquipmentSlot.OFFHAND);
+        //ItemStack stack1 = player.getItemBySlot(EquipmentSlot.OFFHAND);
         if (isAmmo(stack)) return stack;
+        //if (isPowder(stack1)) return stack1;
 
         stack = player.getItemBySlot(EquipmentSlot.MAINHAND);
+        //stack1 = player.getItemBySlot(EquipmentSlot.MAINHAND);
         if (isAmmo(stack)) return stack;
+        //if (isPowder(stack1)) return stack1;
 
         int size = player.getInventory().getContainerSize();
         for (int i = 0; i < size; i++) {
             stack = player.getInventory().getItem(i);
+         //   stack1 = player.getInventory().getItem(i);
             if (isAmmo(stack)) return stack;
+           // if (isPowder(stack1)) return stack;
         }
 
         return ItemStack.EMPTY;
@@ -629,8 +641,6 @@ public abstract class GunItem extends Item {
     public static int getLoadingStage(ItemStack stack) {
         return stack.getOrCreateTag().getInt("loadingStage");
     }
-
-
 
     public static void setLoadingStage(ItemStack stack, int loadingStage) {
         if (loadingStage > 0) {

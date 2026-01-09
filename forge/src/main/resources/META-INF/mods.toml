@@ -5,7 +5,7 @@ issueTrackerURL="https://github.com/Warsnake90/MusketModextraflavourFork"
 
 [[mods]]
 modId="musketmod"
-version="1.20.1Forge-Fork-1.1.2"
+version="1.20.1Forge-Fork-1.2.1"
 displayName="Musket Mod"
 #updateJSONURL=""
 displayURL="https://github.com/Warsnake90/MusketModextraflavourFork"
@@ -13,7 +13,7 @@ logoFile="logo.png"
 credits="lilypuree, MikhailTapio, Xannosz, SkpC9 for their contribution, -, SnowierPuppet(F), indeinerwand88(F), Toast3113(F)"
 authors="ewewukek, Warsnake(Fork)"
 description='''
-Small mod that adds craftable muskets and pistols.
+Small mod that adds craftable muskets, rifles and pistols.
 This is a forked version.
 '''
 
