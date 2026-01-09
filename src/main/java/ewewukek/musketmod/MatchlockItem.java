@@ -17,12 +17,12 @@ public class MatchlockItem extends GunItem {
 
     @Override
     public float bulletStdDev() {
-        return 3.5f;
+        return 5.5f;
     }
 
     @Override
     public float bulletSpeed() {
-        return 250;
+        return 150;
     }
 
     @Override
@@ -32,7 +32,7 @@ public class MatchlockItem extends GunItem {
 
     @Override
     public float damage() {
-        return 11;
+        return 15;
     }
 
     @Override

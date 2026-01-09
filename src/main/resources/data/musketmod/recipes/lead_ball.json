@@ -1,0 +1,26 @@
+{
+  "type": "overgeared:forging",
+  "category": "misc",
+  "tier": "iron",
+  "hammering": 3,
+  "has_quality": false,
+  "has_polishing": false,
+  "pattern": [
+    " N ",
+    "NXN",
+    " N "
+  ],
+  "key": {
+    "N": {
+      "tag": "forge:nuggets/copper"
+    },
+    "X": {
+      "tag": "forge:nuggets/steel"
+    }
+  },
+  "result": {
+    "item": "musketmod:lead_ball",
+    "count": 3
+  },
+  "show_notification": true
+}

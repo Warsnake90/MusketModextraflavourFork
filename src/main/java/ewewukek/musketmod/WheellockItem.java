@@ -17,12 +17,12 @@ public class WheellockItem extends GunItem {
 
     @Override
     public float bulletStdDev() {
-        return 2f;
+        return 2.5f;
     }
 
     @Override
     public float bulletSpeed() {
-        return 230;
+        return 200;
     }
 
     @Override
@@ -32,7 +32,7 @@ public class WheellockItem extends GunItem {
 
     @Override
     public float damage() {
-        return 14;
+        return 20;
     }
 
     @Override

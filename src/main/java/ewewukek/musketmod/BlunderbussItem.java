@@ -17,22 +17,22 @@ public class BlunderbussItem extends GunItem {
 
     @Override
     public float bulletStdDev() {
-        return Config.blunderbussBulletStdDev;
+        return 8;
     }
 
     @Override
     public float bulletSpeed() {
-        return Config.blunderbussBulletSpeed;
+        return 150;
     }
 
     @Override
     public int pelletCount() {
-        return Config.blunderbussPelletCount;
+        return 5;
     }
 
     @Override
     public float damage() {
-        return Config.blunderbussDamage;
+        return 45;
     }
 
     @Override

@@ -26,17 +26,17 @@ public class ScopedMusketItem extends MusketItem {
 
     @Override
     public float bulletStdDev() {
-        return 1;
+        return 1f;
     }
 
     @Override
     public float damage() {
-        return 18;
+        return 25;
     }
 
     @Override
     public float bulletSpeed() {
-        return 200f;
+        return 350f;
     }
 
     @Override

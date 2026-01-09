@@ -37,7 +37,7 @@ public class MusketItem extends GunItem {
 
     @Override
     public float bulletStdDev() {
-        return Config.musketBulletStdDev;
+        return 3;
     }
 
     @Override
@@ -47,7 +47,7 @@ public class MusketItem extends GunItem {
 
     @Override
     public float damage() {
-        return 14;
+        return 19;
     }
 
     @Override

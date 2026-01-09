@@ -36,7 +36,7 @@ public class DoppelstutzenItem extends GunItem {
 
     @Override
     public float damage() {
-        return 20;
+        return 21;
     }
 
     @Override

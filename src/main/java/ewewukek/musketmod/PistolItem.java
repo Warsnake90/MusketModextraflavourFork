@@ -10,7 +10,7 @@ public class PistolItem extends GunItem {
 
     @Override
     public float bulletStdDev() {
-        return Config.pistolBulletStdDev;
+        return 5;
     }
 
     @Override
@@ -20,7 +20,7 @@ public class PistolItem extends GunItem {
 
     @Override
     public float damage() {
-        return 8f;
+        return 16f;
     }
 
     @Override
